@@ -1,6 +1,15 @@
 .Footer{
-    margin: 10px;
-    padding: 10px;
     border: 1px solid black;
     position: relative;
-}
+    background-color: black;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    align-content: center;
+    /* display: inline-block; */
+  }

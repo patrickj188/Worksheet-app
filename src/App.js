@@ -1,7 +1,9 @@
 import React from 'react';
 import MainPages from './components/MainPages'
-import NavBar from './components/Features/NavBar/NavBar.js'
+// import NavBar from './components/Features/NavBar/NavBar.js'
 import Footer from './components/Features/Footer/Footer.js'
+import NavJT from  "./components/Features/NavJT/NavJT"
+
 
 class App extends React.Component {
     constructor() {
@@ -20,8 +22,9 @@ class App extends React.Component {
         return (
             <div>
                 <div>
-                    <NavBar />
+                    <NavJT />
                     <MainPages />
+                    
                 </div>
                 <footer>
                     <Footer />
